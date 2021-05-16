@@ -1,2 +1,2 @@
 export { SignupFormContainer } from './signup-form.container'
-export {SIGNUP_FORM_FIELD_KEY} from './signup-form-constant'
+export {SIGNUP_FORM_FIELD } from './signup-form-type'
