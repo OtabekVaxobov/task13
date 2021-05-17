@@ -3,6 +3,7 @@ import {
     PageLayout,
     ContentLayout,
     AuthLayout,
+    SectionLayout,
  } from '../../lib/elements/layout'
 
 export function SignupPage() {
@@ -10,7 +11,9 @@ export function SignupPage() {
         <ContentLayout>
             <PageLayout>
                 <AuthLayout>
+                    <SectionLayout>
                     <SignupContainer />
+                    </SectionLayout>
                 </AuthLayout>
             </PageLayout>
         </ContentLayout>

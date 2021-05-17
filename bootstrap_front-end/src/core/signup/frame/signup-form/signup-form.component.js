@@ -17,9 +17,6 @@ import styled from "styled-components";
         isSubmitting,} = props;
 
         const isFieldError = (name) =>{
-        //     const errorMassage = errors[name] && touched[name] && errors[name];
-        //     console.log(errors)
-        //  return errorMessage;
         return errors[name] && touched[name] &&errors[name];
         };
 

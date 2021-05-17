@@ -8,6 +8,7 @@ import {FieldPrimaryPropsType } from './field.types';
 import {text } from '../../common/text'
 
 export function FieldPrimary(props: FieldPrimaryPropsType) {
+    console.log(props);
     const {
         titleTid,
         onChange,
